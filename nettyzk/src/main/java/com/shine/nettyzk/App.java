@@ -1,6 +1,5 @@
 package com.shine.nettyzk;
 
-import com.shine.nettyzk.zkopt.CuratorZKClient;
 
 /**
  * Hello world!
@@ -9,6 +8,6 @@ import com.shine.nettyzk.zkopt.CuratorZKClient;
 public class App {
 
 	public static void main(String[] args) {
-		 CuratorZKClient.getInstance().closeServer();
+//		 CuratorZKClient.getInstance().closeServer();
 	}
 }
